@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    length: 100px;
+    background: skyblue;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 50px;
+    background: pink;
+    position: fixed;
+    width: 95%;
+    top: 0;
+}
+
+nav a href{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+ .photos img {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+ }
+
+ .photos img:hover {
+    transform: scale(1.05);
+ }
+
+ .home{
+    color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home h1 span {
+    color: pink;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: cyan;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    color: #000;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.project grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.project{
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+footer{
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    background: #0000000;
+}
+
+
+
+
+
+
+
